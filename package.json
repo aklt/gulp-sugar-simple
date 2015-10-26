@@ -11,7 +11,6 @@
   ],
   "main": "./index.js",
   "author": "Anders Thøgersen <anders@bladre.dk>",
-  "TODOrepository": "",
   "dependencies": {
     "browser-sync": "^2.9.11",
     "del": "^2.0.2",
@@ -19,5 +18,10 @@
     "gulp-rename": "^1.2.2",
     "gulp-shell": "^0.5.0",
     "gulp-sugar": "^0.1.0"
-  }
+  },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/aklt/gulp-sugar-simple.git"
+  },
+  "license": "BSD"
 }
