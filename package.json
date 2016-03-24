@@ -3,25 +3,27 @@
   "version": "0.1.1",
   "description": "Collection of simple build tasks for gulp-sugar",
   "keywords": [
-      "gulp",
-      "gulp-sugar",
-      "simple",
-      "build",
-      "tasks"
+    "gulp",
+    "gulp-sugar",
+    "simple",
+    "build",
+    "tasks"
   ],
   "main": "./index.js",
   "author": "Anders Thøgersen <anders@bladre.dk>",
   "dependencies": {
     "browser-sync": "^2.9.11",
     "del": "^2.0.2",
+    "gulp-markdown-it": "^0.1.1",
     "gulp-preprocess": "^1.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-shell": "^0.5.0",
-    "gulp-sugar": "^0.1.0"
+    "gulp-sugar": "^0.1.0",
+    "markdown-it-deflist": "^1.0.0"
   },
   "repository": {
-      "type": "git",
-      "url": "git://github.com/aklt/gulp-sugar-simple.git"
+    "type": "git",
+    "url": "git://github.com/aklt/gulp-sugar-simple.git"
   },
   "license": "BSD"
 }
