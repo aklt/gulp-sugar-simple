@@ -1,9 +1,9 @@
-var fs = require('fs'),
-    lib = __dirname + '/lib';
+var path = require('path')
+var lib = path.join(__dirname, 'lib')
 
-fs.readdirSync(lib).forEach(function (file) {
-    var m = /^(.+)\.js$/.exec(file);
-    if (m) {
-        module.exports[m[1]] = require(lib + '/' + file);
-    }
-});
+require('fs').readdirSync(lib).forEach(function (file) {
+  var m = /^(.+)\.js$/.exec(file)
+  if (m) {
+    module.exports[m[1]] = require(path.join(lib, file))
+  }
+})
