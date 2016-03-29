@@ -19,7 +19,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-shell": "^0.5.0",
     "gulp-sugar": "^0.1.0",
-    "markdown-it-deflist": "^1.0.0"
+    "markdown-it-deflist": "^1.0.0",
+    "morgan": "^1.7.0"
   },
   "repository": {
     "type": "git",
